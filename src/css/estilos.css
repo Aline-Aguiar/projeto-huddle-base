@@ -5,22 +5,23 @@ body{
 
 .header-container{
     display: flex;
-    /* padding-top: 53px;
-    padding-left: 71px; */
+    padding:53px 71px;
     background-color: blue;
 }
 
 .header-container img{
     height: 53px;
+    background-color: yellow;
 }
 
-.principal{
+main{
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: aqua;
-    /* padding-left: 72px;
-    margin-top: 87px; */
+    padding-left: 72px;
+    padding-top: 34px;
+    /* gap: 35px;   */
 }
 
 .footer{
