@@ -1,5 +1,6 @@
 body{
     background: #fff url(../images/bg-desktop.svg) no-repeat;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header-container{
@@ -20,7 +21,17 @@ main{
     background-color: aqua;
     padding-left: 72px;
     padding-top: 34px;
-    /* gap: 35px;   */
+    gap: 50px;  
+}
+
+.info .info-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.info .info-text{
+    font-weight: 400;
 }
 
 .footer{
