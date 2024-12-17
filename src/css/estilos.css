@@ -1,23 +1,20 @@
 body{   
-    background: #fff url(../images/bg-desktop.svg) no-repeat;
+    background: var(--bg-color-pattern) url(../images/bg-desktop.svg) no-repeat;
     font-family: 'Open Sans', sans-serif;
 }
 
 .header-container{
     display: flex;
     padding:53px 71px;
-    background-color: blue;
 }
 
 .header-container img{
     height: 53px;
-    background-color: yellow;
 }
 
 main{
     display: flex;
     justify-content: center;
-    background-color: aqua;
     padding-left: 73px;
     padding-top: 34px;
     gap: 53px;  
@@ -32,6 +29,7 @@ main{
 
 .info .info-title{
     font-family: 'Poppins', sans-serif;
+    color: #fff;
     font-weight: 600;
     font-size: 40px;
     padding-top: 43px;
@@ -41,6 +39,7 @@ main{
 .info .info-text{
     font-weight: 400;
     font-size: 18px;
+    color: #fff;
     line-height: 27px;
 }
 
@@ -54,20 +53,19 @@ main{
     width: 201px;
     height: 57px;
     border-radius: 100px;
-    background-color: blue;
-    color: #fff;
-    transition: all .5s ease;
+    background-color: #fff;
+    color: var(--bg-color-pattern);
+    transition: all .3s ease;
 }
 
 .info .btn-register:hover{
-    color:lightblue;
-    background-color: brown;
+    color:#fff;
+    background-color: var(--action-color-pattern);
     cursor:pointer;
 }
 
 .footer{
     display: flex;
-    background-color: green;
     justify-content: end;
     width: 1500;
 }
@@ -84,16 +82,16 @@ i.fab{
     width: 2em;
     height: 2em;
     text-align: center;
-    color: #303030;
-    border: 2px solid #303030;
+    color: #fff;
+    border: 2px solid #fff;
     border-radius: 50%;
     padding: 0.5em;
-    transition: all .5s ease;
+    transition: all .3s ease;
 }
 
 i.fab:hover{
-    color:lightblue;
-    border: 2px solid lightblue;
+    color: var(--action-color-pattern);
+    border: 2px solid var(--action-color-pattern);
     cursor:pointer;
 }
 
