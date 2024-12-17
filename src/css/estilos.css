@@ -1,4 +1,4 @@
-body{
+body{   
     background: #fff url(../images/bg-desktop.svg) no-repeat;
     font-family: 'Open Sans', sans-serif;
 }
@@ -62,12 +62,13 @@ main{
     display: flex;
     background-color: green;
     justify-content: end;
+    width: 1500;
 }
 
 .footer .social{
     display: flex;
     padding: 20px 0px;
-    gap: 10px;
+    /* gap: 10px; */
 }
 
 i.fab{
@@ -87,4 +88,16 @@ i.fab:hover{
     color:lightblue;
     border: 2px solid lightblue;
     cursor:pointer;
+}
+
+i.fab.fa-facebook-f{
+    margin-right: 15px;
+}
+
+i.fab.fa-twitter{
+    margin-right: 15px;
+}
+
+i.fab.fa-instagram{
+    margin-right: -11px;
 }
