@@ -56,6 +56,13 @@ main{
     border-radius: 100px;
     background-color: blue;
     color: #fff;
+    transition: all .5s ease;
+}
+
+.info .btn-register:hover{
+    color:lightblue;
+    background-color: brown;
+    cursor:pointer;
 }
 
 .footer{
