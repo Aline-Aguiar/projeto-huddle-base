@@ -15,9 +15,10 @@ body{
 main{
     display: flex;
     justify-content: center;
-    padding-left: 73px;
+    margin-left: 73px;
+    margin-right: 4px;
     padding-top: 34px;
-    gap: 53px;  
+    gap: 53px;
 }
 
 .info{
