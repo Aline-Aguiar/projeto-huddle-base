@@ -1,24 +1,31 @@
 body{   
-    background: var(--bg-color-pattern) url(../images/bg-desktop.svg) no-repeat;
+    /* background: #fff url(../images/bg-desktop.svg) no-repeat; */
     font-family: 'Open Sans', sans-serif;
+    /* padding: 23px 35px; */
 }
 
 .header-container{
     display: flex;
-    padding:53px 71px;
+    /* padding-top: 30px;
+    padding-left: 35px; */
+    background-color: blue;
 }
 
 .header-container img{
     height: 53px;
+    background-color: black;
 }
 
 main{
     display: flex;
     justify-content: center;
-    margin-left: 73px;
-    margin-right: 4px;
-    padding-top: 34px;
-    gap: 53px;
+    align-content: center;
+    /* padding-top: 87px;
+    margin-left: 42px;
+    padding-left: 38px;
+    margin-right: 42px;
+    gap: 52px; */
+    background-color: aquamarine;
 }
 
 .info{
@@ -34,13 +41,14 @@ main{
     font-weight: 600;
     font-size: 40px;
     padding-top: 43px;
-    letter-spacing: -0.3px;
+    /* letter-spacing: -0.3px; */
+    color: black;
 }
 
 .info .info-text{
     font-weight: 400;
     font-size: 18px;
-    color: #fff;
+    color: black;
     line-height: 27px;
 }
 
@@ -68,7 +76,7 @@ main{
 .footer{
     display: flex;
     justify-content: end;
-    width: 1500;
+    /* width: 1500; */
 }
 
 .footer .social{
@@ -83,8 +91,8 @@ i.fab{
     width: 2em;
     height: 2em;
     text-align: center;
-    color: #fff;
-    border: 2px solid #fff;
+    color: black;
+    border: 2px solid black;
     border-radius: 50%;
     padding: 0.5em;
     transition: all .3s ease;
