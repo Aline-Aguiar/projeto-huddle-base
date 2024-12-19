@@ -1,33 +1,40 @@
 body{   
-    /* background: #fff url(../images/bg-desktop.svg) no-repeat; */
+    background: #fff url(../images/bg-desktop.svg) no-repeat;
+    background-size:contain;
+    background-position:initial;
+    margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
-    /* padding: 23px 35px; */
+    max-width: 1440px;
+    min-width: 320px;
+    /* width: 1440px; */
 }
 
 .header-container{
     display: flex;
-    /* padding-top: 30px;
-    padding-left: 35px; */
-    background-color: blue;
+    /* background-color: blue; */
+    padding-top:51px;
+    padding-left: 68px;
 }
 
 .header-container img{
-    height: 53px;
-    background-color: black;
+    /* height: 53px; */
+    height: 50px;
+    /* background-color: black; */
 }
 
 main{
     display: flex;
     justify-content: center;
     align-content: center;
-    /* padding-top: 87px;
-    margin-left: 42px;
-    padding-left: 38px;
-    margin-right: 42px;
-    gap: 52px; */
-    background-color: aquamarine;
+    padding-top: 81px;
+    padding-left: 68px;
+    gap: 50px;
+    /* background-color: aquamarine; */
 }
 
+main .img-mockup{
+    width: 675px;
+}
 .info{
     display: flex;
     flex-direction: column;
@@ -39,28 +46,31 @@ main{
     font-family: 'Poppins', sans-serif;
     color: #fff;
     font-weight: 600;
-    font-size: 40px;
+    font-size: 37px;
     padding-top: 43px;
+    padding-right: 75px;
     /* letter-spacing: -0.3px; */
     color: black;
 }
 
 .info .info-text{
     font-weight: 400;
-    font-size: 18px;
+    font-size: 17px;
     color: black;
-    line-height: 27px;
+    line-height: 25px;
+    padding-right: 65px;
 }
 
 .info .btn-register{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     text-align:center;
-    padding: 10px 20px;
+    padding: 9px 20px;
     margin-top: 3px;
     border: 0;
-    width: 201px;
-    height: 57px;
+    width: 190px;
+    height: 53px;
+    font-size: 17px;
     border-radius: 100px;
     background-color: #fff;
     color: var(--bg-color-pattern);
@@ -81,8 +91,7 @@ main{
 
 .footer .social{
     display: flex;
-    padding: 20px 0px;
-    /* gap: 10px; */
+    padding: 20px 56px; q
 }
 
 i.fab{
