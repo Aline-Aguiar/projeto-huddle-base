@@ -14,7 +14,7 @@ body{
     margin: 0 auto;
     min-width: 320px;
     max-width: 1440px;
-    background: #fff url('../images/bg-desktop.svg') center center no-repeat;
+    background: var(--bg-color-pattern) url('../images/bg-desktop.svg') center center no-repeat;
     background-size: cover;
     min-height: 100vh;
     font-family: 'Open Sans', sans-serif;
@@ -26,24 +26,15 @@ header{
     width: 100%;
 }
 
-.header-container{
-    background-color: blue;
-}
-
 .header-container img{
     height: 5.3rem;
-    background-color: yellow;
 }
 
 main{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
-    min-width: 320px;
-    max-width: 1440px;
     margin-top: 8.5rem;
     column-gap: 5rem;
-    background-color: aquamarine;
 }
 
 main .image{
@@ -56,6 +47,7 @@ main .image{
     flex-direction: column;
     align-items: flex-start;
     font-size: 18px;
+    max-width: 100%;
 }
 
 .info .info-title{
@@ -63,18 +55,18 @@ main .image{
     font-weight: 600;
     font-size: 40px;
     padding-top: 4.3rem;
-    color: #000;
-    background-color: yellow;
+    color: #fff;
 }
 
 .info .info-text{
     font-weight: 400;
-    color: #000;
+    color: #fff;
     margin-top: 2rem;
     line-height: 27px;
 }
 
 .info .btn-register{
+    max-width: 100%;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     text-align:center;
@@ -85,7 +77,7 @@ main .image{
     height: 58px;
     font-size: 18px;
     border-radius: 100px;
-    background-color: #000;
+    background-color: #fff;
     color: var(--bg-color-pattern);
     transition: all .3s ease;
     box-shadow: 0 5px 12px #3c2f60;
@@ -113,8 +105,8 @@ i.fab{
     width: 2em;
     height: 2em;
     text-align: center;
-    color: #000;
-    border: 1.5px solid #000;
+    color: #fff;
+    border: 1.5px solid #fff;
     border-radius: 50%;
     padding: 0.5em;
     transition: all .3s ease;
